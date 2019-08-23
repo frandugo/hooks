@@ -2,10 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Example from './hooks/userHook';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Example/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
